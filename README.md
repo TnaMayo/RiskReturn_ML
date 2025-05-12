@@ -20,6 +20,7 @@ R_f= risk free rate of return (2.3% for this study, based on 5-year Treasury yie
 β_i= beta of the investment  (volatility relative to the market)
 ER_m-R_f=market risk premium (expected return of the market minus the risk-free rate)
 Beta (β) measures an asset’s volatility relative to a benchmark such as the S&P500 representative of behaviour of the general market. A beta of greater than 1 indicates higher volatility than the market while a beta less than 1 suggests lower. Investors often target high beta, taking on more risk in hopes to gain from the volatility.
+
 β=Covariance(R_e ,R_m )/Variance(R_m ) 
 where: 
 R_e= the return on an individual stock 
@@ -27,6 +28,9 @@ R_m= the return on the overall market (benchmark)
 This project tests two key hypotheses derived from CAPM and sector-specific risk-return dynamics:
 	"Stocks with a beta higher than 1.0 deliver average daily returns that are at least 20% higher than stocks with a beta lower than 1.0, consistent with the Capital Asset Pricing Model prediction."
 	“As Sector is a key determiner of risk profile, it acts as the most important feature in determining average daily returns”
+ 
 These hypotheses are rooted in financial theory, and the principles of the risk-return trade-off. The first hypothesis addresses the theory that greater systematic risk should offer higher returns as compensation. The second hypothesis builds on the observations of similar sector dynamics, where companies often exhibit similar risk-return profiles due to factors such as regulatory environments and technological advancements. 
+
 For instance, the Technology sector, characterized by rapid innovation and high growth potential, often experiences wide dispersion in returns, presenting both opportunities and risks for investors (Cutter, P., 2024). Similarly, sectors like Energy and Consumer Discretionary exhibit distinct risk profiles driven by commodity price fluctuations and consumer demand cycles, respectively. 
+
 By analysing data from the components of the S&P 500 for 5 years (2020-2024) this study employs various statistical and machine learning techniques to examine the validity of these hypotheses and provide a data driven perspective on the relationship between risk and return.
